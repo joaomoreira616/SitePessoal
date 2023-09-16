@@ -1,6 +1,62 @@
 body{
-    color: #fff!important;
+    color: #000000!important;
     font-family: Arial, Helvetica, sans-serif!important;
-    background-color: #1b1e23!important ;
+    background-color: #ffffff!important ;
 }
 
+.cor-navbar{
+    background-color: #847f7f;
+    z-index: 99;
+}
+
+.hover-links:hover{
+    color: #008fcc!important;
+
+}
+
+.logo-jm{
+    width: 4vw;
+    height: 4vh;
+}
+
+.bg-main{
+    position: fixed;
+    right: 0;
+    height: 100%;
+}
+
+.modal-infosobremim{
+    background-color: #008fcc;
+    width: 30vw;
+    height: 80vh;
+    position: relative;
+    margin-left: 5%;
+    bottom: 39rem;
+    border-radius: 40px;
+    display: block;
+    transition: 1.5s;
+}
+
+.modal-amigos{
+    background-color: #008fcc;
+    width: 30vw;
+    height: 80vh;
+    position: relative;
+    margin-left: 11%;
+    bottom: 77rem;
+    border-radius: 40px;
+    display: block;
+    transition: 1.5s;
+}
+
+.modal-hobbies{
+    background-color: #008fcc;
+    width: 30vw;
+    height: 80vh;
+    position: relative;
+    margin-left: 15%;
+    bottom: 115rem;
+    border-radius: 40px;
+    display: block;
+    transition: 1.5s;
+}
