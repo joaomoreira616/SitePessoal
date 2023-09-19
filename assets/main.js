@@ -13,7 +13,7 @@ let clickhobbies = document.querySelector(".hobbies")
 clicksobremim.addEventListener("click", ()=>{
         modalamigos.style.bottom = "77rem";
         modalhobbies.style.bottom = "115rem";
-        modalinfosobremim.style.bottom = "-1rem";
+        modalinfosobremim.style.bottom = "0";
 });
 
 // abrir modal amigos
@@ -31,7 +31,7 @@ clickhobbies.addEventListener("focus", ()=>{
 })
 
 fecharsobremim.addEventListener("click", ()=>{
-    modalinfosobremim.style.bottom = "39rem";
+    modalinfosobremim.style.bottom = "45rem";
     console.log("teste fechar sobre mim");
 })
 
