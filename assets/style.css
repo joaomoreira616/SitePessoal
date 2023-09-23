@@ -47,17 +47,6 @@ body{
     transition: 1.5s;
 }
 
-.modal-hobbies{
-    background-color: #008fcc;
-    width: 80vw;
-    height: 92vh;
-    position: relative;
-    bottom: 132rem;
-    border-radius: 40px;
-    display: block;
-    transition: 1.5s;
-}
-
 .fecharsobremim, .fecharamigos, .fecharhobbies{
     font-size: 16pt;
     color:#fff;
