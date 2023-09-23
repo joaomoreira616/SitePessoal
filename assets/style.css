@@ -96,3 +96,25 @@ body{
     display: flex;
     flex-direction: row;
 }
+
+.galeriadefotos{
+    display: flex;
+    flex-direction: column;
+}
+
+.fila1, .fila2, .fila3{
+    display: flex;
+    position: relative;
+    gap: 1rem;
+    margin-left: 1%;
+}
+
+.fila1 img, .fila2 img, .fila3 img{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 30px;
+}
+
+.glrtotvs{
+    
+}
