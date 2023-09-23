@@ -11,34 +11,33 @@ let clickhobbies = document.querySelector(".hobbies")
 
 // abrir modal sobre mim
 clicksobremim.addEventListener("click", ()=>{
-        modalamigos.style.bottom = "77rem";
-        modalhobbies.style.bottom = "115rem";
-        modalinfosobremim.style.bottom = "0";
+    modalamigos.style.bottom = "90rem";
+    modalhobbies.style.bottom = "132rem";
+    modalinfosobremim.style.bottom = "0";
 });
 
 // abrir modal amigos
 clickamigos.addEventListener("focus", ()=>{
-    modalinfosobremim.style.bottom="39rem";
-    modalhobbies.style.bottom = "115rem";
-    modalamigos.style.bottom = "37rem";
+    modalinfosobremim.style.bottom="45rem";
+    modalhobbies.style.bottom = "132rem";
+    modalamigos.style.bottom = "44rem";
 })
 
 // abrir modal hobbies
 clickhobbies.addEventListener("focus", ()=>{
-    modalinfosobremim.style.bottom = "39rem";
-    modalamigos.style.bottom = "77rem";
-    modalhobbies.style.bottom = "75rem";
+    modalinfosobremim.style.bottom = "45rem";
+    modalamigos.style.bottom = "90rem";
+    modalhobbies.style.bottom = "88rem";
 })
 
 fecharsobremim.addEventListener("click", ()=>{
     modalinfosobremim.style.bottom = "45rem";
-    console.log("teste fechar sobre mim");
 })
 
 fecharamigos.addEventListener("click", ()=>{
-    modalamigos.style.bottom = "77rem";
+    modalamigos.style.bottom = "90rem";
 })
 
 fecharhobbies.addEventListener("click", ()=>{
-    modalhobbies.style.bottom = "115rem";
+    modalhobbies.style.bottom = "132rem";
 })

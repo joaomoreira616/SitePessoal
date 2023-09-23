@@ -33,30 +33,28 @@ body{
     bottom: 45rem;
     border-radius: 50px;
     display: block;
-    transition: 1.5s;
+    transition: 1.5s; 
 }
 
 .modal-amigos{
     background-color: #008fcc;
-    width: 30vw;
-    height: 80vh;
+    width: 80vw;
+    height: 92vh;
     position: relative;
-    margin-left: 11%;
-    bottom: 77rem;
+    bottom: 90rem;
     border-radius: 40px;
-    display: none;
+    display: block;
     transition: 1.5s;
 }
 
 .modal-hobbies{
     background-color: #008fcc;
-    width: 30vw;
-    height: 80vh;
+    width: 80vw;
+    height: 92vh;
     position: relative;
-    margin-left: 15%;
-    bottom: 115rem;
+    bottom: 132rem;
     border-radius: 40px;
-    display: none;
+    display: block;
     transition: 1.5s;
 }
 
@@ -91,14 +89,18 @@ body{
     font-family:'Poppins', sans-serif;
     font-size: 14pt;
     margin-left: 1%;
-    margin-top: 4%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .minhaft img{
     width: 20vw;
     height: 50vh;
     border-radius: 150px;
-    margin-top: 50%;
+    margin-top: 40%;
+    margin-right: 2rem;
 }
 
 .contentmodal{
